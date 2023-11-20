@@ -103,7 +103,7 @@ hr {
 }
 
 .windows10 {
-  background-image: url(../img/win10/win10-1.jpeg);
+  background-image: url(img/win10/win10-1.jpeg);
   background-size: 810px;
   background-repeat: no-repeat;
   border: solid 5px black;
@@ -112,7 +112,7 @@ hr {
 }
 
 .windows11 {
-  background-image:  url(../img/win11/win11-1.jpg);
+  background-image:  url(img/win11/win11-1.jpg);
   background-repeat: no-repeat;
   background-position-x: -90px ;
   background-size: 979px;

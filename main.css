@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(43, 42, 42);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  overflow: hidden;
+}
+
+.navigation1 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  padding-top: 45px;
+  background-color: darkblue;
+  border-radius: 1em;
+  width: 350px;
+  height: 150px;
+  cursor: pointer;
+} 
+
+.navigation2 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  padding-top: 45px;
+  background-color: darkblue;
+  border-radius: 1em;
+  width: 350px;
+  height: 150px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+}
+
+.nav1:hover {
+  color: gray
+}
+
+.nav2:hover {
+  color: gray
+}
+
+.w10 {
+  text-align: center;
+  font-size: 360px;
+  margin: 20px;
+  color: transparent;
+  user-select: none;
+}
+
+.w11 {
+  text-align: center;
+  font-size: 360px;
+  margin: 20px;
+  color: transparent;
+  user-select: none;
+}
+
+hr {
+  border: none;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 2%;
+  margin-top: 50px;
+}
+
+.flex-container {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 115px;
+}
+
+.flex-item {
+  margin-top: 50px;
+}
+
+.menu {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.windows10 {
+  background-image: url(../img/win10/win10-1.jpeg);
+  background-size: 810px;
+  background-repeat: no-repeat;
+  border: solid 5px black;
+  width: 816px;
+  height: 432px;
+}
+
+.windows11 {
+  background-image:  url(../img/win11/win11-1.jpg);
+  background-repeat: no-repeat;
+  background-position-x: -90px ;
+  background-size: 979px;
+  border: solid 5px black;
+  width: 816px;
+  height: 432px;
+}
